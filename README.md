@@ -1,35 +1,27 @@
-# Casa Bergamota — Pomar & Mesa
+# Casa Bergamota
 
-Landing page fictícia criada para portfólio.
+Projeto conceitual de portfólio (Brunido). Sítio, pessoas, valores e contato são fictícios.
 
 ## Conceito
-Experiência gastronômica sazonal em uma propriedade familiar, com frutas cítricas, produtos artesanais e visitas ao pomar.
 
-## Recursos
-- Layout responsivo.
-- CTAs contextuais para WhatsApp com mensagens pré-preenchidas.
-- Seções editoriais e sensoriais.
-- Mosaico gastronômico.
-- Caixa da Estação como produto de destaque.
-- Fallback visual para imagens externas.
+Um almoço por sábado, para dezoito pessoas, debaixo das bergamoteiras. Abre só na safra (abril a setembro) e o cardápio segue o que a árvore entrega na semana. A ação principal é reservar um sábado pelo WhatsApp.
 
-## Observações
-Todos os dados comerciais, localização específica, telefone e disponibilidade são fictícios.
+- Plano: Estratégico.
+- Gênero: japanese-minimal, com campos laranja grandes a pedido do cliente (o gênero original usa o acento só como marca).
+- Paleta: papel `#F6F0E5`, papel 2 `#ECE3D2`, sumi `#2A1F17`, pedra `#675C50`, laranja `#EC7A1F` (campo, texto sumi por cima 5,6:1), laranja profundo `#A8430C` (links sobre papel 5,3:1).
+- Tipos: Zen Old Mincho (títulos) e Zen Kaku Gothic New (texto).
 
+## O que o site tem
 
-## Revisão — coerência visual
-- A imagem de “Bergamotas” foi trocada por uma foto mais coerente com o texto.
-- “Geleias” agora usa uma imagem de geleia cítrica, não de cupcake.
-- “Bolos & doces” agora mostra um doce cítrico, coerente com laranja e limão.
-- “Sentar à mesa” agora mostra uma mesa com frutas/preparos, mais alinhada com a descrição.
-- As novas imagens foram incluídas localmente na pasta `assets/`, evitando dependência de URLs externas para esses blocos revisados.
+- **A safra:** régua de 12 meses. Cada círculo mostra quanto a fruta amadureceu e, ao tocar, o painel diz o que vai à mesa naquele mês.
+- **A mesa em seis tempos:** um prato dividido em seis fatias que se enche conforme a rolagem passa por cada tempo.
+- **Reserva:** escolhe mês, sábado (com lugares restantes e datas lotadas), adultos e crianças, restrições e a Caixa da Estação. Calcula o total e monta a mensagem pronta para o WhatsApp.
+- Caixa da Estação, dúvidas frequentes e fecho com chamada.
 
-## Atenção
-Estas imagens foram incluídas para fins de protótipo/portfólio. Antes de uso comercial público definitivo, o ideal é substituir por imagens próprias ou devidamente licenciadas.
+## Arquivos
 
+- `index.html`, `styles.css`: página completa sem JavaScript.
+- `script.js`: safra por mês, reserva e topo.
+- `motion.js`: animações com GSAP, ScrollTrigger e Lenis (em `vendor/`), sempre dentro de `gsap.matchMedia` e desligadas com movimento reduzido.
 
-## Revisão v5 — coerência fotográfica
-- “Bergamotas” usa imagem de bergamotas/tangerinas, não limões.
-- “Geleias” usa imagem de geleia cítrica artesanal, sem cupcake.
-- “Bolos & doces” usa composição com bolos, torta e doces de laranja e limão.
-- As imagens corrigidas ficam locais na pasta `assets`, evitando dependência externa nessas áreas.
+Fotografias via Unsplash, carregadas de images.unsplash.com.
