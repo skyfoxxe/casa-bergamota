@@ -214,7 +214,12 @@ p { margin: 0; }
   .top-cta { margin-left: auto; padding: 8px 12px; font-size: 0.8rem; }
   .brand-name { font-size: 1rem; }
 }
-@media (max-width: 380px) {
+@media (max-width: 400px) {
+  .brand { gap: 10px; }
+  .brand-name { font-size: 0.92rem; }
+  .top-cta { padding: 8px 10px; font-size: 0.76rem; }
+}
+@media (max-width: 340px) {
   .brand-name { display: none; }
 }
 
